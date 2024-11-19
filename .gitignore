@@ -1,0 +1,20 @@
+# Arquivos de configuração sensíveis
+.env
+
+# Dependências gerenciadas pelo Composer
+/vendor/
+
+# Logs e caches
+*.log
+/cache/
+storage/framework/cache/*
+storage/logs/*
+
+# Arquivos temporários do sistema
+*.tmp
+*.swp
+
+# Configurações específicas do IDE/editor
+.vscode/
+.idea/
+*.iml

@@ -1,5 +1,5 @@
 <?php
-    require('../conexao/conexao.php')
+    require('../conexao.php')
 ?>
 
 <!doctype html>

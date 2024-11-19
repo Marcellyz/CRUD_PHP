@@ -1,7 +1,10 @@
 <?php
 
 session_start();
-require('../conexao/conexao.php');
+require '../conexao.php';
+
+$conexao = mysqli_connect($host, $user, $senha,$db ) or die('Não foi possível conectar');
+
 
 if (isset($_POST['create_usuario'])) {
 
